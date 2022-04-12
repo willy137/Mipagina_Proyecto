@@ -1,0 +1,29 @@
+header{
+    background-color: #686464;
+    margin: auto;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0%;
+}
+ul{
+    margin: 0%;
+}
+li>a{
+ text-decoration: none  ;
+ color:#ffffff
+}
+.menu li{
+ display: inline-block ;
+ color: #ffffff;
+ margin-left: 20%;
+}
+.menu>li:hover{
+ background-color: bisque;
+}
+body{
+    margin: 0%;
+    background-color: #333;
+}
