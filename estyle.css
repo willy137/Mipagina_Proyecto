@@ -1,29 +1,40 @@
 header{
-    background-color: #686464;
+    background-color: #3f7c6a;
     margin: auto;
+    padding: 1%;
 }
 .navbar{
     overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    top: 0%;
+    position: static;
+    top: 10%;
 }
 ul{
-    margin: 0%;
+   list-style: none;     
 }
-li>a{
- text-decoration: none  ;
- color:#ffffff
-}
-.menu li{
- display: inline-block ;
+.menu li a{
+ display: block ;
  color: #ffffff;
- margin-left: 20%;
+ padding: 10px 15px;
+ text-decoration: none;
+}
+.menu >li{
+ float:left;
 }
 .menu>li:hover{
- background-color: bisque;
+    background-color: #034353;
+}
+.menu li>a:hover{
+       background-color: #034353;
+}
+.menu li ul{
+    display :none;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover>ul{
+    display: block;
 }
 body{
     margin: 0%;
-    background-color: #333;
+    background-color: #383232;
 }
