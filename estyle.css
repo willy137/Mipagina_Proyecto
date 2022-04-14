@@ -6,7 +6,7 @@ header{
 .navbar{
     overflow: hidden;
     position: static;
-    top: 10%;
+    top: 1%;
 }
 ul{
    list-style: none;     
